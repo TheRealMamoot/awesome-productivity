@@ -88,7 +88,7 @@ You can configure these commands under the **Window Management** extension tab.
 <p align="center">
   <img src="assets/raycast.png" width="90%" />
   <br>
-  <em>With only the keyboard</em>
+  <em>My desktop using only the keyboard!</em>
 </p>
 
 ## Shortcuts
@@ -115,7 +115,6 @@ Here are some of the shortcuts I rely on and their corresponding tabs in Raycast
 | Toggle Repeat (Spotify)                 | ⌃ ⌥ ⌘ 0  |
 | Toggle Shuffle (Spotify)                | ⌃ ⌥ ⌘ 8  |
 
-<br>
 </div>
 
 ### ❗**Important❗**
@@ -178,11 +177,10 @@ This setup uses the **[Jonathan Terminal theme](https://github.com/ohmyzsh/ohmyz
 - **[cmatrix](https://github.com/abishekvashok/cmatrix)** – Terminal “Matrix rain” animation, recreating the iconic digital rain effect.
 - **[asciiquarium](https://github.com/cmatsuoka/asciiquarium)** – Terminal-based aquarium animation rendered entirely in ASCII characters.
 
-**_I personally go fullscreen with the terminal and use `caffeinate -d cmatrix` as a screensaver!_**
-
 <p align="center">
   <img src="assets/matrix.png" width="49%" />
   <img src="assets/asciiquarium.png" width="49%" />
+  <em> I personally go fullscreen with the terminal and use `caffeinate -d cmatrix` as a screensaver! </em>
 </p>
 
 ## Custom Aliases
