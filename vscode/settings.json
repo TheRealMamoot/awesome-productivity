@@ -1,0 +1,310 @@
+{
+  // == Editor Settings ==
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.emptySelectionClipboard": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontWeight": "500",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.guides.indentation": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.lineHeight": 1.9,
+  "editor.lineNumbers": "relative",
+  "editor.letterSpacing": 0.2,
+  "editor.minimap.enabled": false,
+  // "editor.minimap.autohide": true,
+  // "editor.minimap.maxColumn": 80,
+  // "editor.minimap.size": "proportional",
+  "editor.occurrencesHighlight": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.rulers": [120],
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  // == Python Specific Settings ==
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  // == Semantic Token Colors ==
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "parameter": {
+        "foreground": "#aaf0a5eb"
+        // "fontStyle": "italic"
+      }
+      // "property": {
+      //     "foreground": "#82f6f6eb",
+      //     "fontStyle": "underline"
+      // }
+    }
+  },
+  // == TextMate Token Colors ==
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Docstrings",
+        "scope": [
+          "string.quoted.docstring.multi.python",
+          "string.quoted.double.block.python",
+          "string.quoted.single.block.python"
+        ],
+        "settings": {
+          "foreground": "#cc7e87",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.function.python",
+          "storage.type.class.python",
+          "variable.language"
+          // "variable.parameter.function.language.python"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function",
+          "entity.name.class",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "constant.language",
+          "comment",
+          "string",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#888888",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.tag.html",
+        "settings": {
+          "foreground": "#d16b77"
+        }
+      },
+      {
+        "scope": "entity.name.tag.tsx",
+        "settings": {
+          "foreground": "#d16b77"
+        }
+      }
+      // {
+      //     "scope": "entity.name.namespace",
+      //     "settings": {
+      //         "foreground": "#f2b374"
+      //     }
+      // },
+    ]
+  },
+  // == Intellisense ==
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.snippetSuggestions": "top",
+  "editor.wordBasedSuggestions": "currentDocument",
+  "python.languageServer": "Pylance",
+  "files.autoSave": "afterDelay",
+  // == Explorer ==
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  // == Diff Editor ==
+  "diffEditor.renderSideBySide": true,
+  // == Workbench Settings ==
+  "workbench.activityBar.location": "top",
+  "workbench.editor.showTabs": "single",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.startupEditor": "none",
+  // == Workbench Color Customizations ==
+  "workbench.colorCustomizations": {
+    // == Activity Bar ==
+    "activityBar.background": "#3e3e423b",
+    "activityBar.foreground": "#9CDCFE",
+    "activityBar.activeBorder": "#9CDCFE",
+    "activityBar.activeBackground": "#2c2c2c",
+    "activityBar.inactiveForeground": "#9CDCFE",
+    "activityBar.border": "#9CDCFE",
+    "activityBarBadge.background": "#9CDCFE",
+    "activityBarBadge.foreground": "#000000",
+    // == Editor Colors ==
+    "editorIndentGuide.background1": "#9cdcfe59",
+    "editorIndentGuide.activeBackground1": "#9cdcfebb",
+    "editorLineNumber.foreground": "#5f5f658d",
+    "editorLineNumber.activeForeground": "#9CDCFE",
+    "editor.lineHighlightBackground": "#9cdcfe09",
+    // "editor.lineHighlightBorder": "#9cdcfea3",
+    "editor.selectionBackground": "#9cdcfe42",
+    // "editor.selectionForeground": "#ffffff",
+    "editorRuler.foreground": "#9898982e",
+    "editorBracketMatch.border": "#9CDCFE",
+    // == Tabs ==
+    "tab.activeBackground": "#9cdcfe2e",
+    "tab.inactiveBackground": "#151515",
+    "tab.activeForeground": "#9CDCFE",
+    "tab.inactiveForeground": "#c5c5c5",
+    "tab.hoverBackground": "#9cdcfe2e",
+    "tab.unfocusedHoverBackground": "#9cdcfe2e",
+    // "tab.hoverBorder": "#9CDCFE",
+    "tab.hoverForeground": "#FFFFFF",
+    "tab.unfocusedHoverForeground": "#FFFFFF",
+    "tab.unfocusedActiveBackground": "#9cdcfe2e",
+    "tab.unfocusedActiveForeground": "#BBBBBB",
+    "tab.unfocusedInactiveForeground": "#888888",
+    "tab.border": "#9CDCFE",
+    "tab.activeBorder": "#9CDCFE",
+    "tab.activeBorderTop": "#9CDCFE",
+    "tab.unfocusedActiveBorder": "#9CDCFE",
+    "tab.unfocusedActiveBorderTop": "#9CDCFE",
+    // == Editor Group Colors ==
+    "editorGroup.border": "#9cdcfea0",
+    "editor.background": "#151515",
+    "editorGroupHeader.tabsBackground": "#151515",
+    "editorGroupHeader.tabsBorder": "#9cdcfea0",
+    // "editorGroupHeader.noTabsBackground": "#262525",
+    // "editorGroupHeader.noTabsBorder": "#333333",
+    // "editorGroup.emptyBackground": "#1E1E1E",
+    "editorGroup.dropBackground": "#9cdcfe44",
+    // "editorPane.background": "#1B1B1B",
+    // == Input Fields ==
+    "button.border": "#9CDCFE",
+    "dropdown.border": "#9CDCFE",
+    "focusBorder": "#9CDCFE",
+    "input.border": "#9cdcfe74",
+    // "input.background": "#9CDCFE",
+    "input.foreground": "#9CDCFE",
+    // "input.placeholderForeground": "#9cdcfe8b",
+    // == Lists ==
+    "list.activeSelectionBackground": "#9cdcfe49",
+    "list.activeSelectionForeground": "#9CDCFE",
+    "list.inactiveSelectionBackground": "#9cdcfe67",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#9cdcfe33",
+    "list.hoverForeground": "#ffffff",
+    "list.focusBackground": "#9cdcfe49",
+    "list.focusForeground": "#ffffff",
+    "list.dropBackground": "#9cdcfe49",
+    "list.highlightForeground": "#f4c55a",
+    "list.errorForeground": "#f96b6b",
+    "list.warningForeground": "#f6b92a",
+    // == Trees ==
+    "tree.indentGuidesStroke": "#9CDCFE",
+    // == Side Bar ==
+    "sideBar.background": "#151515",
+    "sideBarSectionHeader.border": "#9CDCFE",
+    "sideBar.foreground": "#ffffffd7",
+    "sideBar.border": "#9CDCFE",
+    "sideBarTitle.foreground": "#9CDCFE",
+    "sideBarSectionHeader.background": "#3e3e4285",
+    "sideBarSectionHeader.foreground": "#9CDCFE",
+    // == Terminal ==
+    "terminal.background": "#151515",
+    "terminal.foreground": "#ffffff",
+    "terminal.border": "#9CDCFE",
+    "terminal.dropBackground": "#9cdcfe49",
+    "terminal.selectionBackground": "#264f78aa",
+    "panel.border": "#9CDCFE",
+    "panelTitle.activeBorder": "#9CDCFE",
+    // == Terminal Command Decorations ==
+    "terminalCommandDecoration.defaultBackground": "#151515",
+    "terminalCommandDecoration.successBackground": "#4EC9B0",
+    "terminalCommandDecoration.errorBackground": "#F44747"
+  },
+  // == Terminal and Env Settings ==
+  "python.terminal.activateEnvironment": false,
+  "python.terminal.activateEnvInCurrentTerminal": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.letterSpacing": 2,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorBlinking": true,
+  // == Material Icons ==
+  "material-icon-theme.files.associations": {
+    "*.npz": "zip",
+    "*.midi": "audio",
+    "*.keras": "robot"
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.folders.color": "#4EC9B0",
+  "material-icon-theme.files.color": "#DCDCAA",
+  // == Git ==
+  "git.openRepositoryInParentFolders": "never",
+  // == Extensions ==
+  // == Custom CSS ==
+  "vscode_custom_css.imports": [
+    "file:///Users/mahmoudian/Projects/awesome-productivity/vscode/vscode-script.js",
+    "file:///Users/mahmoudian/Projects/awesome-productivity/vscode/custom-vscode.css"
+  ],
+  "custom-ui-style.stylesheet": {
+    ".quick-input-list .scrollbar": "display: none !important;",
+    ".editor-widget.find-widget": "border-radius: 8px"
+  },
+  // == Project Manager ==
+  "projectManager.git.baseFolders": ["~/Projects/"],
+  "editor.codeLens": false,
+  "r.lsp.diagnostics": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": true,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+  "editor.largeFileOptimizations": false,
+  "python.terminal.useEnvFile": true
+}

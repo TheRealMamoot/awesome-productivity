@@ -1,0 +1,317 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+shift+o",
+        "command": "workbench.action.quickOpen",
+        "args": "@:"
+    },
+    {
+        "key": "ctrl+cmd+s",
+        "command": "saveAll"
+    },
+    {
+        "key": "alt+cmd+s",
+        "command": "-saveAll"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.showAllEditors"
+    },
+    {
+        "key": "shift+alt+cmd+r",
+        "command": "workbench.action.reloadWindow",
+        "when": "false"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+alt+cmd+t",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "cmd+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    // fast line change
+    {
+        "key": "cmd+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "up",
+                        "by": "line",
+                        "value": 10,
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "down",
+                        "by": "line",
+                        "value": 10,
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+ctrl+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "up",
+                        "by": "line",
+                        "value": 5,
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+ctrl+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "down",
+                        "by": "line",
+                        "value": 5,
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus",
+    },
+    {
+        "key": "cmd+shift+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "up",
+                        "by": "line",
+                        "value": 10,
+                        "select": true
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+shift+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "down",
+                        "by": "line",
+                        "value": 10,
+                        "select": true
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+ctrl+shift+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "up",
+                        "by": "line",
+                        "value": 5,
+                        "select": true
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+ctrl+shift+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "down",
+                        "by": "line",
+                        "value": 5,
+                        "select": true
+                    }
+                }
+            ]
+        },
+        "when": "editorFocus"
+    },
+    // Go to bottom, then top toggle
+    {
+        "key": "cmd+,",
+        "command": "cursorBottom"
+    },
+    {
+        "key": "cmd+shift+,",
+        "command": "cursorTop"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+cmd+up",
+        "command": "-workbench.action.terminal.resizePaneUp",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+cmd+down",
+        "command": "-workbench.action.terminal.resizePaneDown",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "shift+alt+cmd+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+    },
+    {
+        "key": "cmd+shift+g",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "jupyter.createnewinteractive",
+        "when": "isWorkspaceTrusted"
+    },
+    {
+        "key": "shift+alt+cmd+c",
+        "command": "chatgpt.openSidebar"
+    },
+    {
+        "key": "shift+cmd+backspace",
+        "command": "deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+delete",
+        "command": "-deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+backspace",
+        "command": "deleteWordPartRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+delete",
+        "command": "-deleteWordPartRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+backspace",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+delete",
+        "command": "-deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    // {
+    //     "key": "ctrl+cmd+down",
+    //     "command": "editor.action.moveLinesDownAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    {
+        "key": "alt+down",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // {
+    //     "key": "ctrl+cmd+up",
+    //     "command": "editor.action.moveLinesUpAction",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
+    {
+        "key": "alt+up",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+l",
+        "command": "expandLineSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    // {
+    //     "key": "cmd+'",
+    //     "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+    //     "when": "editorTextFocus"
+    // }
+]

@@ -1,0 +1,289 @@
+/*===================*/
+/* GENERAL EDITOR UI */
+/*===================*/
+
+.monaco-editor .scroll-decoration {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important;
+    top: -6px !important;
+}
+
+.part.sidebar {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+}
+
+.slider {
+    position: absolute !important;
+    right: 1px !important;
+    width: 4px !important;
+    height: 5% !important;
+    background: #9cdcfeca !important;
+    left: auto !important;
+}
+
+/*=========================*/
+/* TREE VIEW & LIST LABELS */
+/*=========================*/
+
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name,
+.label-name,
+.title-label {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px;
+    /* color: #9CDCFE !important; */
+    /* text-transform: uppercase; */
+}
+
+.pane-header {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 20px !important;
+    /* color: #9CDCFE !important; */
+    /* text-transform: uppercase; */
+}
+
+/*===================*/
+/* HOVERS & TOOLTIPS */
+/*===================*/
+
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
+    background-image: linear-gradient(180deg, #1f1f1f 0%, #151515 100%) !important;
+    backdrop-filter: blur(4px) !important;
+    border-radius: 0px !important;
+    border: 2px solid #2c2c2c !important;
+    outline: none !important;
+}
+
+/*=================*/
+/* COMMAND PALETTE */
+/*=================*/
+
+.quick-input-widget {
+    z-index: 10000 !important;
+    position: fixed !important;
+    top: 300px !important;
+    box-shadow: 0px 12px 48px rgba(0, 0, 0, 0.5) !important;
+    background-image: linear-gradient(#1a1a1a 0%, #111111 100%) !important;
+    backdrop-filter: blur(2px) !important;
+    padding: 2px 4px 4px 4px !important;
+    border-radius: 2px !important;
+}
+
+.quick-input-list,
+.quick-input-list .list_id_6 {
+    max-height: 420px !important;
+    overflow-y: auto !important;
+}
+
+.quick-input-filter .monaco-inputbox {
+    border: none !important;
+    padding: 2px !important;
+    border-radius: 2px !important;
+    font-family: 'JetBrains Mono' !important;
+    font-size: 12px !important;
+}
+
+.quick-input-header {
+    align-items: center;
+}
+
+.quick-input-inline-action-bar .actions-container .action-item {
+    margin-bottom: 16px !important;
+}
+
+/*=======================*/
+/* INPUTS & PLACEHOLDERS */
+/*=======================*/
+
+.monaco-inputbox input::placeholder {
+    color: rgba(255, 255, 255, .3) !important;
+}
+
+.monaco-inputbox textarea.input,
+input.input {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+textarea.input[aria-label="Find"] {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+/*=============*/
+/* EDITOR FONT */
+/*=============*/
+
+.view-lines {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+/*=========================*/
+/* NOTIFICATIONS & BUTTONS */
+/*=========================*/
+
+.notification-list-item-message {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+}
+
+.monaco-button.monaco-text-button {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+    background-color: #9cdcfe37 !important;
+    color: #9cdcfe !important;
+    border: 1px solid #9cdcfe !important;
+    padding: 2px 8px !important;
+}
+
+.monaco-button.monaco-text-button:not(.disabled):hover,
+.monaco-button.monaco-dropdown-button:hover {
+    background-color: #9cdcfe55 !important;
+    color: #9cdcfe !important;
+    border-color: #9cdcfe !important;
+}
+
+.monaco-button-dropdown-separator,
+.monaco-button-dropdown-separator>div,
+.monaco-button.monaco-dropdown-button {
+    background-color: #9cdcfe37 !important;
+    color: #9cdcfe !important;
+}
+
+/*======================*/
+/* GIT VIEW + WATERMARK */
+/*======================*/
+
+.resource-group .name {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #9cdcfe !important;
+}
+
+.editor-group-watermark {
+    max-width: none !important;
+}
+
+/*======================*/
+/* ACTION LABELS / TABS */
+/*======================*/
+
+a.action-label:not(.codicon):not([class*="icon"]) {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 11px !important;
+    font-weight: 500 !important;
+}
+
+/*=======================*/
+/* BLUR BACKDROP OVERLAY */
+/*=======================*/
+
+#command-blur {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+    z-index: 9000;
+    pointer-events: none;
+}
+
+/*================*/
+/* PROJECT TTITLE */
+/*================*/
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Project Title */
+.titlebar-left {
+    justify-content: flex-end !important;
+    flex-grow: 0 !important;
+    width: 0px !important;
+}
+
+/* Search Label */
+:root {
+    --search-label-color: #ffffffb8;
+}
+
+.search-label {
+    font-family: 'JetBrains Mono' !important;
+    font-size: 14px !important;
+    color: var(--search-label-color) !important;
+    display: block;
+}
+
+/* Search icon */
+.search-icon {
+    display: none !important;
+}
+
+.codicon-search::before {
+    display: none !important;
+}
+
+.codicon-arrow-right,
+.codicon-arrow-left {
+    display: none !important;
+}
+
+/* .titlebar-right>* {
+    display: none !important;
+} */
+
+.command-center-center {
+    width: auto !important;
+}
+
+/*===============*/
+/* COPILOT ICONS */
+/*===============*/
+
+.codicon-copilot,
+.codicon-copilot::before {
+    display: none !important;
+}
+
+.codicon-chevron-down,
+.codicon-chevron-down::before {
+    display: none !important;
+}
+
+.monaco-button.codicon-diff-multiple::before {
+    color: #9cdcfe !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+    font-size: 14px !important;
+}
+
+.monaco-button.codicon.codicon-diff-multiple::before {
+    font-family: "codicon" !important;
+    font-weight: normal !important;
+    color: #9cdcfe !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+}
+
+.chat-mcp-action {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
