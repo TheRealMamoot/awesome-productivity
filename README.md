@@ -107,7 +107,7 @@ This setup uses the **[Jonathan Terminal theme](https://github.com/ohmyzsh/ohmyz
 <p align="center">
   <img src="assets/matrix.png" width="49%" />
   <img src="assets/asciiquarium.png" width="49%" />
-  <em> I personally go fullscreen with the terminal and use `caffeinate -d cmatrix` as a screensaver! </em>
+  <em>I personally go fullscreen with the terminal and use `caffeinate -d cmatrix` as a screensaver!</em>
 </p>
 
 ## Custom Aliases
