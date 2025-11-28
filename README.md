@@ -49,79 +49,6 @@ stow --adopt -t "$HOME/.oh-my-zsh/custom" zsh
 The files in this repo are now symlinked to your system paths —
 edit them here, and your system updates instantly!
 
-# Raycast
-
-Raycast is the command palette your Mac secretly wishes it had.  
-It replaces Spotlight with something faster, smarter, and actually useful. You can extend it with all kinds of powerful extensions like GitHub, Spotify, Jira, Notion, Brew, Clipboard History, etc.
-
-The two features that pull the most weight are **Window Management** and **Shortcuts**.
-Shortcuts give you instant access to quick actions, while Window Management makes navigating macOS feel frictionless. Together they replace half a dozen separate apps and keep everything fast, clean, and keyboard-first.
-
-## Window Management
-
-Below are some of the keybindings I use for window tiling. They’re especially useful if you’re working without a second monitor.
-
-You can configure these commands under the **Window Management** extension tab.
-
-<div align="center">
-
-| Command           | Shortcut |
-| ----------------- | -------- |
-| Toggle Fullscreen | ⌃ ⌥ ⌘ F  |
-| Left Half         | ⌃ ⌥ ⌘ [  |
-| Right Half        | ⌃ ⌥ ⌘ ]  |
-| Make Larger       | ⌃ ⌥ ⌘ =  |
-| Make Smaller      | ⌃ ⌥ ⌘ -  |
-| Maximize          | ⌃ ⌥ ⌘ M  |
-| Maximize Height   | ⌃ ⌥ ⌘ ↩︎ |
-| Maximize Width    | ⌃ ⌥ ⌘ ⟷  |
-| Move Down         | ⌃ ⌥ ⌘ ↓  |
-| Move Left         | ⌃ ⌥ ⌘ ←  |
-| Move Right        | ⌃ ⌥ ⌘ →  |
-| Move Up           | ⌃ ⌥ ⌘ ↑  |
-| Reasonable Size   | ⌃ ⌥ ⌘ '  |
-| Restore           | ⌃ ⌥ ⌘ R  |
-
-<br>
-</div>
-
-<p align="center">
-  <img src="assets/raycast.png" width="90%" />
-  <br>
-  <em>My desktop using only the keyboard!</em>
-</p>
-
-## Shortcuts
-
-Here are some of the shortcuts I rely on and their corresponding tabs in Raycast's _extension_ section:
-
-<div align="center">
-
-| Name (Tab)                              | Shortcut |
-| --------------------------------------- | -------- |
-| _Open Terminal_ (Applications)          | ⌘ ~      |
-| _Open VSCode_ (Applications)            | ⌘ 2      |
-| _Open Chrome_ (Applications)            | ⌘ 3      |
-| _Open Spotify_ (Applications)           | ⌘ 4      |
-| _Open Telegram/Whatsapp_ (Applications) | ⌘ 5      |
-| Clipboard History (Clipboard History)   | ⌃ ⌥ ⌘ C  |
-| Lock Screen (System)                    | ⌃ L      |
-| Show Desktop (System)                   | ⌃ ⌥ ⌘ D  |
-| Next Track (Spotify)                    | ⌘ 0      |
-| Toggle Play/Pause (Spotify)             | ⌘ 9      |
-| Previous Track (Spotify)                | ⌘ 8      |
-| Skip Forward (Spotify)                  | ⌘ ⇧ 0    |
-| Skip Backward (Spotify)                 | ⌘ ⇧ 8    |
-| Toggle Repeat (Spotify)                 | ⌃ ⌥ ⌘ 0  |
-| Toggle Shuffle (Spotify)                | ⌃ ⌥ ⌘ 8  |
-
-</div>
-
-### ❗**Important❗**
-
-When configuring custom shortcuts, be aware that some key combinations may already be reserved by macOS or existing applications. You may need to disable or remap certain system-level shortcuts to avoid conflicts.  
-Additionally, some of these keybindings can overlap with default or recommended VSCode shortcuts, so adjusting one environment might require updating the other as well.
-
 # Terminal
 
 **Oh My Zsh** comes preinstalled on macOS, while Linux users may need to install Zsh manually before running the Oh My Zsh installer. Installing it generates the main `~/.zshrc` file and sets up the shell framework.  
@@ -221,6 +148,75 @@ alias sbd='deactivate'
 alias nrd='npm run dev'
 alias c='clear'
 ```
+# Raycast
+
+Raycast is the command palette your Mac secretly wishes it had.  
+It replaces Spotlight with something faster, smarter, and actually useful. You can extend it with all kinds of powerful extensions like GitHub, Spotify, Jira, Notion, Brew, Clipboard History, etc.
+
+The two features that pull the most weight are **Window Management** and **Shortcuts**.
+Shortcuts give you instant access to quick actions, while Window Management makes navigating macOS feel frictionless. Together they replace half a dozen separate apps and keep everything fast, clean, and keyboard-first.
+
+## Window Management
+
+Below are some of the keybindings I use for window tiling. They’re especially useful if you’re working without a second monitor.
+
+You can configure these commands under the **Window Management** extension tab.
+
+<div align="center">
+
+| Command           | Shortcut |
+| ----------------- | -------- |
+| Toggle Fullscreen | ⌃ ⌥ ⌘ F  |
+| Left Half         | ⌃ ⌥ ⌘ [  |
+| Right Half        | ⌃ ⌥ ⌘ ]  |
+| Make Larger       | ⌃ ⌥ ⌘ =  |
+| Make Smaller      | ⌃ ⌥ ⌘ -  |
+| Maximize          | ⌃ ⌥ ⌘ M  |
+| Maximize Height   | ⌃ ⌥ ⌘ ↩︎ |
+| Maximize Width    | ⌃ ⌥ ⌘ ⟷  |
+| Move Down         | ⌃ ⌥ ⌘ ↓  |
+| Move Left         | ⌃ ⌥ ⌘ ←  |
+| Move Right        | ⌃ ⌥ ⌘ →  |
+| Move Up           | ⌃ ⌥ ⌘ ↑  |
+| Reasonable Size   | ⌃ ⌥ ⌘ '  |
+| Restore           | ⌃ ⌥ ⌘ R  |
+
+<br>
+</div>
+
+<p align="center">
+  <img src="assets/raycast.png" width="90%" />
+  <br>
+  <em>My desktop using only the keyboard!</em>
+</p>
+
+## Shortcuts
+
+Here are some of the shortcuts I rely on and their corresponding tabs in Raycast's _extension_ section:
+
+<div align="center">
+
+| Name (Tab)                              | Shortcut |
+| --------------------------------------- | -------- |
+| _Open Terminal_ (Applications)          | ⌘ ~      |
+| _Open VSCode_ (Applications)            | ⌘ 2      |
+| _Open Chrome_ (Applications)            | ⌘ 3      |
+| _Open Spotify_ (Applications)           | ⌘ 4      |
+| _Open Telegram/Whatsapp_ (Applications) | ⌘ 5      |
+| Clipboard History (Clipboard History)   | ⌃ ⌥ ⌘ C  |
+| Lock Screen (System)                    | ⌃ L      |
+| Show Desktop (System)                   | ⌃ ⌥ ⌘ D  |
+| Skip Forward (Spotify)                  | ⌘ ⇧ 0    |
+| Skip Backward (Spotify)                 | ⌘ ⇧ 8    |
+| Toggle Repeat (Spotify)                 | ⌃ ⌥ ⌘ 0  |
+| Toggle Shuffle (Spotify)                | ⌃ ⌥ ⌘ 8  |
+
+</div>
+
+### ❗**Important❗**
+
+When configuring custom shortcuts, be aware that some key combinations may already be reserved by macOS or existing applications. You may need to disable or remap certain system-level shortcuts to avoid conflicts.  
+Additionally, some of these keybindings can overlap with default or recommended VSCode shortcuts, so adjusting one environment might require updating the other as well.
 
 # VSCode Configuration
 
